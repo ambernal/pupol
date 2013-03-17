@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_image_ImageBean" items="${imagebeans}" z="Ekxt7m6EPFg2OM+20NC9eTwz9Y0=">
+        <table:table data="${imagebeans}" id="l_es_pupol_beans_image_ImageBean" path="/imagebeans" z="fE4enFcCc0kHdP8JCbgUu3pV4sc=">
+            <table:column id="c_es_pupol_beans_image_ImageBean_url" property="url" z="nnJd7yNxfAZYYzfR9A5XYncXb0Y="/>
+        </table:table>
+    </page:list>
+</div>

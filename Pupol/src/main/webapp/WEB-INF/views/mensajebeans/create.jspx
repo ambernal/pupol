@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_es_pupol_beans_mensaje_MensajeBean" modelAttribute="mensajeBean" path="/mensajebeans" render="${empty dependencies}" z="noIlXP5zcogzkTU8SKkSBOGcnCQ=">
+        <field:input field="fromMessage" id="c_es_pupol_beans_mensaje_MensajeBean_fromMessage" z="vMAuzTgZfegy8jRCf23QMQ7+KuY="/>
+        <field:input field="toMessage" id="c_es_pupol_beans_mensaje_MensajeBean_toMessage" z="8EDPExmcqrIseq3+AgM6pgQ7EeU="/>
+        <field:input field="subject" id="c_es_pupol_beans_mensaje_MensajeBean_subject" z="EX+AxrlRhrWg/ci3OBCBUxcBSto="/>
+        <field:input field="body" id="c_es_pupol_beans_mensaje_MensajeBean_body" z="jCR6man/sHNKU1Bp2YyPZtX3vTk="/>
+        <field:input field="type" id="c_es_pupol_beans_mensaje_MensajeBean_type" z="sqVZ9NTq0A4y/SUX6Q9Rlq5Eebw="/>
+        <field:checkbox field="readMessage" id="c_es_pupol_beans_mensaje_MensajeBean_readMessage" z="jrzmrTUE+jXMIl7ikfCdPwV9b4A="/>
+        <field:datetime dateTimePattern="${mensajeBean_datemessage_date_format}" field="dateMessage" id="c_es_pupol_beans_mensaje_MensajeBean_dateMessage" z="bQu/H64gKZXdlNyQmIF6jx/86y4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_es_pupol_beans_mensaje_MensajeBean" render="${not empty dependencies}" z="KNadUeFsLeiSAcWo8UjQtJTJ8ZQ="/>
+</div>

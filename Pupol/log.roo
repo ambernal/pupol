@@ -1,0 +1,72 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-17 17:57:16
+project --topLevelPackage es.pupol --projectName Pupol --java 6 --packaging WAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-17 17:57:17
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-17 17:59:01
+hint
+jpa setup --database MYSQL --provider HIBERNATE 
+hint
+entity jpa --class ~.beans.mensaje.MensajeBean
+hint
+// [failed] field string from 
+// [failed] field string --fieldName from 
+field string --fieldName fromMessage 
+field string --fieldName toMessage 
+field string --fieldName subject
+field string --fieldName body
+field string --fieldName type
+// [failed] field boolean --fieldName read
+field boolean --fieldName readMessage
+field date --fieldName dateMessage --type java.util.Date
+hint
+hint fields
+entity jpa --class ~.beans.child.ChildBean
+field string --fieldName name
+field string --fieldName surname1
+field string --fieldName surname2
+field date --fieldName birthday --type java.util.Date
+field string --fieldName picture
+field string --fieldName comments
+entity jpa --class ~.beans.person.PersonBean
+field string --fieldName name
+field string --fieldName surname1
+field string --fieldName surname2
+field date --fieldName birthday --type java.util.Date
+field string --fieldName address
+field string --fieldName picture
+entity jpa --class ~.beans.mail.MailBean
+field string --fieldName email
+entity jpa --class ~.beans.phone.PhoneBean
+field string --fieldName phone
+// [failed] focus --class ~.child.ChildBean
+// [failed] field enum --fieldName phones --type ~.beans.phone.PhoneBean
+focus --class ~.beans.child.ChildBean
+field enum --fieldName phones --type ~.beans.phone.PhoneBean
+field enum --fieldName mails --type ~.beans.mail.MailBean
+focus --class ~.beans.person.PersonBean
+field enum --fieldName phones --type ~.beans.phone.PhoneBean
+field enum --fieldName mails --type ~.beans.mail.MailBean
+entity jpa --class ~.beans.classroom.ClassRoomBean
+field string --fieldName name
+field enum --fieldName profesores --type ~.beans.person.PersonBean
+entity jpa --class ~.beans.center.CenterBean
+field string --fieldName name
+field string --fieldName address
+field string --fieldName description
+field string --fieldName image
+field enum --fieldName classrooms --type ~.beans.classroom.ClassRoomBean
+field enum --fieldName managers --type ~.beans.person.PersonBean
+entity jpa --class ~.beans.image.ImageBean
+// [failed] field string --fieldName name
+field string --fieldName url
+focus --class ~.beans.center.CenterBean
+field enum --fieldName images --type ~.beans.image.ImageBean
+entity jpa --class ~.beans.company.CompanyBean
+field string --fieldName name
+field string --fieldName address
+field enum --fieldName centers --type ~.beans.center.CenterBean
+hint
+web mvc setup 
+web mvc language --code es 
+web mvc all --package ~.admin
+perform eclipse 
+perform package

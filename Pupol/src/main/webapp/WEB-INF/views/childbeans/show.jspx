@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_es_pupol_beans_child_ChildBean" object="${childbean}" path="/childbeans" z="86yKIrcjq5Re/iAPH4W5dd/sQ44=">
+        <field:display field="name" id="s_es_pupol_beans_child_ChildBean_name" object="${childbean}" z="PBPKBPCXQ8AhBZ7wr/1nYPCD3OE="/>
+        <field:display field="surname1" id="s_es_pupol_beans_child_ChildBean_surname1" object="${childbean}" z="8uOrud5xnCjCZ7nYMRCIKGffEfk="/>
+        <field:display field="surname2" id="s_es_pupol_beans_child_ChildBean_surname2" object="${childbean}" z="SNjm7pZECWddaSBj1vnx9LIQJ/k="/>
+        <field:display date="true" dateTimePattern="${childBean_birthday_date_format}" field="birthday" id="s_es_pupol_beans_child_ChildBean_birthday" object="${childbean}" z="J9dcVFeW++mdrLYfsa4yCoWFCII="/>
+        <field:display field="picture" id="s_es_pupol_beans_child_ChildBean_picture" object="${childbean}" z="dtIxKtk5zF2EgwZIDdW69aGFGY4="/>
+        <field:display field="comments" id="s_es_pupol_beans_child_ChildBean_comments" object="${childbean}" z="sw+cN/hhYIUuQ9yKG+UF8VdyOzI="/>
+    </page:show>
+</div>

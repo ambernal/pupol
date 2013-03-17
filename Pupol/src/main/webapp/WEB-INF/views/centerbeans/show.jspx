@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_es_pupol_beans_center_CenterBean" object="${centerbean}" path="/centerbeans" z="o7yrJGA5QVQj1/QHIEJ7wdPQ+C4=">
+        <field:display field="name" id="s_es_pupol_beans_center_CenterBean_name" object="${centerbean}" z="3Guvrd4ndNGeBk3t7Q+WElFYJcs="/>
+        <field:display field="address" id="s_es_pupol_beans_center_CenterBean_address" object="${centerbean}" z="1mIMgcltUov3cZLb0d9idEwTFZw="/>
+        <field:display field="description" id="s_es_pupol_beans_center_CenterBean_description" object="${centerbean}" z="jOtzxe2dsgMjXhlM9OY/dPaUJ+w="/>
+        <field:display field="classrooms" id="s_es_pupol_beans_center_CenterBean_classrooms" object="${centerbean}" z="pVM2KrR4WP2PKc1pDcOxNJs/37Q="/>
+        <field:display field="managers" id="s_es_pupol_beans_center_CenterBean_managers" object="${centerbean}" z="jTLGEln1HDIPM7I8dqYBeLHfh7U="/>
+        <field:display field="images" id="s_es_pupol_beans_center_CenterBean_images" object="${centerbean}" z="bWUfWYrQjrmk+K9F5dWG3ElzVdU="/>
+    </page:show>
+</div>

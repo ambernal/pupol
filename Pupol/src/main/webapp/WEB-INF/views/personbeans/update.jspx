@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_es_pupol_beans_person_PersonBean" modelAttribute="personBean" path="/personbeans" versionField="Version" z="250XaYyQnN+ewYIGhs06BBgLpzg=">
+        <field:input field="name" id="c_es_pupol_beans_person_PersonBean_name" z="JGVG+PCKe8Klag+lbkrp6AkRMUM="/>
+        <field:input field="surname1" id="c_es_pupol_beans_person_PersonBean_surname1" z="zbD0VpswU92RQuTBxXZHWJP9tlc="/>
+        <field:input field="surname2" id="c_es_pupol_beans_person_PersonBean_surname2" z="npA2gWLhyEirGSMgQCyT7d0Omhs="/>
+        <field:datetime dateTimePattern="${personBean_birthday_date_format}" field="birthday" id="c_es_pupol_beans_person_PersonBean_birthday" z="VvLbhm1yDsI84Ubfd2d1sut+Pi8="/>
+        <field:input field="address" id="c_es_pupol_beans_person_PersonBean_address" z="CS2yLLXDEVjiyTAUpDu7T5Jxtd0="/>
+        <field:input field="picture" id="c_es_pupol_beans_person_PersonBean_picture" z="1GItVje/QqdAFTnIP89XdTXrMX4="/>
+        <field:input field="phones" id="c_es_pupol_beans_person_PersonBean_phones" z="p2y1HwQ2y+WMj4G7FTBnk4q0+VQ="/>
+        <field:input field="mails" id="c_es_pupol_beans_person_PersonBean_mails" z="RB6Zmzz2vO/ciaGiRXgiM5yp8G4="/>
+    </form:update>
+</div>

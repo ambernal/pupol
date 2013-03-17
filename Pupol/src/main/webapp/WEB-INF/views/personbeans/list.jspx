@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_person_PersonBean" items="${personbeans}" z="7zsZWdvsP75i/9rl51ksC6XdS7w=">
+        <table:table data="${personbeans}" id="l_es_pupol_beans_person_PersonBean" path="/personbeans" z="uvwSAL2RVpuNyz8fiK98ZpzGgsA=">
+            <table:column id="c_es_pupol_beans_person_PersonBean_name" property="name" z="7IKMjnYI8fgwBO5vMRIMBtHFWi8="/>
+            <table:column id="c_es_pupol_beans_person_PersonBean_surname1" property="surname1" z="xTP0ayksQZw7CaBZa/I1WqbRNK4="/>
+            <table:column id="c_es_pupol_beans_person_PersonBean_surname2" property="surname2" z="TgafNNczHmtyJGW3CCosBFuxhKo="/>
+            <table:column date="true" dateTimePattern="${personBean_birthday_date_format}" id="c_es_pupol_beans_person_PersonBean_birthday" property="birthday" z="J8h36Fw5ofwI+wDyocRp0A5PLro="/>
+            <table:column id="c_es_pupol_beans_person_PersonBean_address" property="address" z="RXrZGufhhhjDT7neMyovCyE/IhU="/>
+            <table:column id="c_es_pupol_beans_person_PersonBean_picture" property="picture" z="XJcj2La5O726S8vNVEgcl2Rn6OY="/>
+        </table:table>
+    </page:list>
+</div>

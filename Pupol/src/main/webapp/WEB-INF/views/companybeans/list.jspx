@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_company_CompanyBean" items="${companybeans}" z="UzRGjhziuIc/LpZTNv3I3ifxAto=">
+        <table:table data="${companybeans}" id="l_es_pupol_beans_company_CompanyBean" path="/companybeans" z="1SAOMh6QQkATQhea2/YMTtBQgkg=">
+            <table:column id="c_es_pupol_beans_company_CompanyBean_name" property="name" z="h0QTFjYmyXFxGvxr1okC8kuVYrU="/>
+            <table:column id="c_es_pupol_beans_company_CompanyBean_address" property="address" z="FlSWHp7WjjVDHQGdaXcPhKV+oaw="/>
+            <table:column id="c_es_pupol_beans_company_CompanyBean_centers" property="centers" z="fUj86AHEJFwjsALXSt31WZ5NZJI="/>
+        </table:table>
+    </page:list>
+</div>

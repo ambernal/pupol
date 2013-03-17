@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_es_pupol_beans_image_ImageBean" modelAttribute="imageBean" path="/imagebeans" render="${empty dependencies}" z="Km5BxAYIw4YtgRnsybrKczn1pPw=">
+        <field:input field="url" id="c_es_pupol_beans_image_ImageBean_url" z="EF+Fl6XGwjQzeS2ywpZrf/xX9ik="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_es_pupol_beans_image_ImageBean" render="${not empty dependencies}" z="2y2kvbRo5LcpE8mQ2gRb72dPWR0="/>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_mensaje_MensajeBean" items="${mensajebeans}" z="Kl8Rhel1M3xv6D5vtHl8v92wmAU=">
+        <table:table data="${mensajebeans}" id="l_es_pupol_beans_mensaje_MensajeBean" path="/mensajebeans" z="aekzKKoTnv3bWv6Xp19Rb7g0wqQ=">
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_fromMessage" property="fromMessage" z="uE8GvkMs+8tSX9+Cm6+2thybdYA="/>
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_toMessage" property="toMessage" z="z9hlNf5x9GC+OuDaX+wqpecKqLk="/>
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_subject" property="subject" z="mnbZw9Qnu2ecgt7OyjN9KEp7hyk="/>
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_body" property="body" z="/GB76tzJrHuTc34Wfb57UgDas80="/>
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_type" property="type" z="mpIUaDlsctIzSaLWU3YcMO41oJk="/>
+            <table:column id="c_es_pupol_beans_mensaje_MensajeBean_readMessage" property="readMessage" z="c/0amEtcSZ6A75MxqbLf8mINmYo="/>
+        </table:table>
+    </page:list>
+</div>

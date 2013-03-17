@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_es_pupol_beans_phone_PhoneBean" object="${phonebean}" path="/phonebeans" z="30/sewq7TuJB8GrOrEA6R1PIc/w=">
+        <field:display field="phone" id="s_es_pupol_beans_phone_PhoneBean_phone" object="${phonebean}" z="8DYeaUuHk8RlAK3W4A8vxSaCDKM="/>
+    </page:show>
+</div>

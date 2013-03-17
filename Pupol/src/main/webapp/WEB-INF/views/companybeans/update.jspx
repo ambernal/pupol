@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_es_pupol_beans_company_CompanyBean" modelAttribute="companyBean" path="/companybeans" versionField="Version" z="7XtzgMwd2U4mLoq8r5YToFQevRk=">
+        <field:input field="name" id="c_es_pupol_beans_company_CompanyBean_name" z="nC85bWTPCEURnNg61h04sMtg7MY="/>
+        <field:input field="address" id="c_es_pupol_beans_company_CompanyBean_address" z="jjhBmBbp9t59UyfVFh1uHt3t/ns="/>
+        <field:input field="centers" id="c_es_pupol_beans_company_CompanyBean_centers" z="SFWI8Jpzvcs2RPEU5WuZllq4eYY="/>
+    </form:update>
+</div>

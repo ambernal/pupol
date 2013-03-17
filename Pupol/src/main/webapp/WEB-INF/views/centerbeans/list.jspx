@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_center_CenterBean" items="${centerbeans}" z="KcyYFQ2M6E5SwxhtkyidTPJdLsE=">
+        <table:table data="${centerbeans}" id="l_es_pupol_beans_center_CenterBean" path="/centerbeans" z="+7jIigc5pv+tUdPj+Uzj3SI3OxY=">
+            <table:column id="c_es_pupol_beans_center_CenterBean_name" property="name" z="xTqOuEvcxA6j5voJr8Y5w1RflSw="/>
+            <table:column id="c_es_pupol_beans_center_CenterBean_address" property="address" z="AitAXDnMO5va2EHKQz+gG3yM0hA="/>
+            <table:column id="c_es_pupol_beans_center_CenterBean_description" property="description" z="gHPCp/uS3poW5lRR+K4B0nxuUCk="/>
+            <table:column id="c_es_pupol_beans_center_CenterBean_classrooms" property="classrooms" z="idWnOfHJxqXYzkbLos3gdoaaeNw="/>
+            <table:column id="c_es_pupol_beans_center_CenterBean_managers" property="managers" z="QY8hQiaYLjzbhIj0RAgefs5isGQ="/>
+            <table:column id="c_es_pupol_beans_center_CenterBean_images" property="images" z="xoReEf+Vkxe2G5FjLNu/OIEbVS8="/>
+        </table:table>
+    </page:list>
+</div>

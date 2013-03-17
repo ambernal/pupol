@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_es_pupol_beans_classroom_ClassRoomBean" items="${classroombeans}" z="H96L9gM2SmAHbN+x7oz7N3q5MGo=">
+        <table:table data="${classroombeans}" id="l_es_pupol_beans_classroom_ClassRoomBean" path="/classroombeans" z="yu3C18eVXkPXSC7en/7HVYUAJps=">
+            <table:column id="c_es_pupol_beans_classroom_ClassRoomBean_name" property="name" z="4DZmf5K04v7lkCoz2e4QKPqCVwo="/>
+            <table:column id="c_es_pupol_beans_classroom_ClassRoomBean_profesores" property="profesores" z="exw25e47lKAdKIPhHKU6YxZYRfA="/>
+        </table:table>
+    </page:list>
+</div>

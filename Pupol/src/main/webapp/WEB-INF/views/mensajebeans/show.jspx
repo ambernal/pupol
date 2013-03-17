@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_es_pupol_beans_mensaje_MensajeBean" object="${mensajebean}" path="/mensajebeans" z="kVm9tuY8FajNmZhkKmbuxkwvc9A=">
+        <field:display field="fromMessage" id="s_es_pupol_beans_mensaje_MensajeBean_fromMessage" object="${mensajebean}" z="rv2Ts8lfDRK6qJ4EneoyJrxJi20="/>
+        <field:display field="toMessage" id="s_es_pupol_beans_mensaje_MensajeBean_toMessage" object="${mensajebean}" z="WqCSdFPo6pZsMJj86LoIt8xCVXU="/>
+        <field:display field="subject" id="s_es_pupol_beans_mensaje_MensajeBean_subject" object="${mensajebean}" z="3P2f0x7ollRYav3i+uTJXWMQTSk="/>
+        <field:display field="body" id="s_es_pupol_beans_mensaje_MensajeBean_body" object="${mensajebean}" z="KUpVbPmRTVkR9UfN/FxtDvbxr2g="/>
+        <field:display field="type" id="s_es_pupol_beans_mensaje_MensajeBean_type" object="${mensajebean}" z="EOiN9gItNMn3pmwOgs6X55MoCPY="/>
+        <field:display field="readMessage" id="s_es_pupol_beans_mensaje_MensajeBean_readMessage" object="${mensajebean}" z="K4Hk01wEamZdF6E6FiGsVgkblS8="/>
+        <field:display date="true" dateTimePattern="${mensajeBean_datemessage_date_format}" field="dateMessage" id="s_es_pupol_beans_mensaje_MensajeBean_dateMessage" object="${mensajebean}" z="/9QcCtko9djq/svPgSbrbMjOTBw="/>
+    </page:show>
+</div>
